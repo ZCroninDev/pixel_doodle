@@ -6,32 +6,45 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    color: #efefef;
+}
+
 #container {
     background-color: bisque;
-    max-width: 1024px;
+    max-width: 960px;
     margin: 0 auto;
     border: 10px solid black;
     border-radius: 10px;
 }
 
-#canvas {
+#canvas-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    width: 1024px;
-    height: 80vh;
     background-color: #202020;
 }
 
-#canvas-inner {
+#inner-canvas {
     display: grid;
     background-color: rgb(255, 255, 255);
     grid-template-columns: repeat(21, 25px) 1fr 1fr 1fr;
     grid-template-rows: repeat(21, 25px) 1fr 1fr 1fr;
 }
 
-#options {
+.options {
     display: flex;
+    align-self: center;
     justify-content: space-between;
+    padding: 20px;
+    flex-direction: column;
+    row-gap: 40px;
+    width: 100%;
+    text-align: center;
+}
+
+.options button {
+    border: 5px solid black;
+    border-radius: 10px;
     padding: 20px;
 }
