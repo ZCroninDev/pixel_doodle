@@ -1,3 +1,4 @@
 // const innerCanvas = document.getElementById("inner-canvas")
+// Ideas
 
-// console.log(innerCanvas)
+// animated cursors
