@@ -27,11 +27,15 @@ h2 {
     border-radius: 10px;
 }
 
-#inner-canvas {
+#grid {
     display: grid;
     background-color: rgb(255, 255, 255);
-    grid-template-columns: repeat(64, 12px) 1fr 1fr 1fr;
-    grid-template-rows: repeat(64, 12px) 1fr 1fr 1fr;
+    height: 768px;
+    width: 768px;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+    /* grid-template-columns: repeat(64, 12px) 1fr 1fr 1fr;
+    grid-template-rows: repeat(64, 12px) 1fr 1fr 1fr; */
 }
 
 .options {
